@@ -37,3 +37,7 @@ mongoose
 Recipe.deleteOne({title:'Carrot Cake'})
 .then(res => console.log('Carrot Cake is no longer available'))
 .catch((err)=> {console.log('An error happened:',err)})
+
+// Iteration 6
+
+  mongoose.connection.close();
